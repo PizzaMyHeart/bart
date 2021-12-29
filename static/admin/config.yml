@@ -1,0 +1,47 @@
+backend:
+  name: github
+  repo: PizzaMyHeart/bart # Branch to update (optional; defaults to master)
+  branch: main
+
+local_backend: true
+
+site_url: 'http://localhost:3000'
+
+publish_mode: editorial_workflow
+
+media_folder: static/img/uploads
+public_folder: /img/uploads
+
+collections:
+  - name: 'haematology'
+    label: 'Haematology'
+    folder: 'docs/haematology'
+    create: true
+    extension: md
+    media_folder: ''
+    public_folder: ''
+    identifier_field: '{{title}}'
+    path: '{{slug}}'
+    editor:
+      preview: false
+    fields:
+      - { label: 'Title', name: 'title', widget: 'string' }
+      - { label: 'Publish Date', name: 'date', widget: 'datetime' }
+      - { label: 'Body', name: 'body', widget: 'markdown' }
+
+  - name: 'diabetes'
+    label: 'Diabetes'
+    folder: 'docs/diabetes'
+    create: true
+    extension: md
+    media_folder: ''
+    public_folder: ''
+    identifier_field: '{{title}}'
+    title: '{{title}}'
+    path: '{{slug}}'
+    editor:
+      preview: false
+    fields:
+      - { label: 'Title', name: 'title', widget: 'string' }
+      - { label: 'Publish Date', name: 'date', widget: 'datetime' }
+      - { label: 'Body', name: 'body', widget: 'markdown' }

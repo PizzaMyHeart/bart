@@ -8,7 +8,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'Bart',
   tagline: 'Guidelines at the point of care',
-  url: 'https://pizzamyheart.github.io/bart',
+  url: 'bart.tachy.org',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -56,6 +56,7 @@ const config = {
             label: 'Guidelines',
           },
           {to: '/blog', label: 'Blog', position: 'left'},
+          {to: 'http://localhost:3000/admin', label: 'Authors', position:'left'},
           {
             href: 'https://github.com/facebook/docusaurus',
             label: 'GitHub',
