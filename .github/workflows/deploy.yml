@@ -3,7 +3,7 @@ name: Deploy to GitHub Pages
 on:
   push:
     branches: [main]
-    paths: [bart/**]
+    paths: [website/**]
 
 jobs:
   deploy:
