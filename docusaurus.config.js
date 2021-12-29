@@ -8,7 +8,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'Bart',
   tagline: 'Guidelines at the point of care',
-  url: 'bart.tachy.org',
+  url: 'https://bart.tachy.org',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
