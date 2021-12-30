@@ -3,12 +3,12 @@
 
 const lightCodeTheme = require('prism-react-renderer/themes/github');
 const darkCodeTheme = require('prism-react-renderer/themes/dracula');
-
+const url = 'https://bart.tachy.org'; // change this depending on deployment or production
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Bart',
   tagline: 'Guidelines at the point of care',
-  url: 'https://bart.tachy.org',
+  url: url,
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -56,7 +56,7 @@ const config = {
             label: 'Guidelines',
           },
           {to: '/blog', label: 'Blog', position: 'left'},
-          {to: 'http://localhost:3000/admin', label: 'Authors', position:'left'},
+          {to: url + '/admin', label: 'Authors', position:'left'},
           {
             href: 'https://github.com/facebook/docusaurus',
             label: 'GitHub',

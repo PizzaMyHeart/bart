@@ -8,28 +8,25 @@ const FeatureList = [
     Svg: require('../../static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        Guidelines that are easy to find and read. 
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
+    title: 'Easy to Write',
     Svg: require('../../static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        Netlify CMS lets you write documents in Markdown or rich text.
       </>
     ),
   },
   {
-    title: 'Powered by React',
+    title: 'Online or Offline',
     Svg: require('../../static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        Want to browse Bart as a website on your PC? Or use it as an offline app you can install on your device? You get to decide.
       </>
     ),
   },
