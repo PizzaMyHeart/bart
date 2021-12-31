@@ -83,20 +83,7 @@ const config = {
                 href: 'https://viewer.microguide.global/BARTS/ADULT',
               }
             ],
-          },
-          {
-            title: 'More',
-            items: [
-              {
-                label: 'Blog',
-                to: '/blog',
-              },
-              {
-                label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
-              },
-            ],
-          },
+          }
         ],
         copyright: `Built by Ian Tan with Docusaurus.`,
       },
@@ -104,6 +91,10 @@ const config = {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
       },
+      tableOfContents: {
+        minHeadingLevel: 2,
+        maxHeadingLevel: 6
+      }
     }),
 };
 
