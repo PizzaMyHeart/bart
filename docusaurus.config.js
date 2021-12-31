@@ -81,6 +81,10 @@ const config = {
               {
                 label: 'Barts Microguide',
                 href: 'https://viewer.microguide.global/BARTS/ADULT',
+              },
+              {
+                lebel: 'MDCalc',
+                href: 'https://www.mdcalc.com/'
               }
             ],
           }
