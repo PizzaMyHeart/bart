@@ -5,7 +5,7 @@ backend:
 
 local_backend: true
 
-site_url: 'http://localhost:3000'
+site_url: 'https://bart.tachy.org'
 
 publish_mode: editorial_workflow
 
