@@ -77,20 +77,12 @@ const config = {
             ],
           },
           {
-            title: 'Community',
+            title: 'Useful Links',
             items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-              },
-              {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
-              },
-              {
-                label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
-              },
+                label: 'Barts Microguide',
+                href: 'https://viewer.microguide.global/BARTS/ADULT',
+              }
             ],
           },
           {
@@ -107,7 +99,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Ian Tan. Built with Docusaurus.`,
+        copyright: `Built by Ian Tan with Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,
