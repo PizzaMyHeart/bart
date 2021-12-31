@@ -100,6 +100,15 @@ const config = {
         maxHeadingLevel: 6
       }
     }),
+
+  plugins: [
+    [
+      require.resolve('@cmfcmf/docusaurus-search-local'),
+      {
+        indexDocs: true
+      }
+    ]
+  ]
 };
 
 module.exports = config;
