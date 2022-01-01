@@ -46,7 +46,7 @@ const config = {
         title: 'Bart',
         logo: {
           alt: 'My Site Logo',
-          src: 'img/bart.svg',
+          src: 'img/logo.png'
         },
         items: [
           {
@@ -67,10 +67,10 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'Docs',
+            title: 'Guidelines',
             items: [
               {
-                label: 'Tutorial',
+                label: 'Introduction',
                 to: '/docs/intro',
               },
             ],
@@ -89,7 +89,7 @@ const config = {
             ],
           }
         ],
-        copyright: `Built by Ian Tan with Docusaurus.`,
+        copyright: `Built with Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,
