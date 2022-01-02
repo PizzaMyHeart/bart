@@ -132,8 +132,39 @@ const config = {
           {
             tagName: 'meta',
             name: 'theme-color',
-            content: 'rgb(37, 194, 160)'
-          }
+            content: 'rgb(214, 203, 79)'
+          },
+          {
+            tagName: 'meta',
+            name: 'apple-mobile-web-app-capable',
+            content: 'yes',
+          },
+          {
+            tagName: 'meta',
+            name: 'apple-mobile-web-app-status-bar-style',
+            content: '#000',
+          },
+          {
+            tagName: 'link',
+            rel: 'apple-touch-icon',
+            href: '/img/icons-192.png',
+          },
+          {
+            tagName: 'link',
+            rel: 'mask-icon',
+            href: '/img/logo-dark-mode.svg',
+            color: 'rgb(0, 0, 0)',
+          },
+          {
+            tagName: 'meta',
+            name: 'msapplication-TileImage',
+            content: '/img/icons-192.png',
+          },
+          {
+            tagName: 'meta',
+            name: 'msapplication-TileColor',
+            content: '#000',
+          },
         ]
       }
     ]
