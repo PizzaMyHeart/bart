@@ -1,0 +1,12 @@
+<svg version="1.2" baseProfile="tiny-ps" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 138 146" width="138" height="146">
+	<title>how-to-draw-bart-simpson-step-3</title>
+	<defs>
+		<image  width="109" height="135" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAG0AAACHCAMAAAAr+SeAAAAAAXNSR0IB2cksfwAAAGlQTFRFAAAA//8A9PT0kZGRwcHBmJiYysoUgYGBYmJib29vaGhod3dPdnZ2jo6O0NAUiIiIsrIl//8Abm5u//8A//8AZ2ddg4NGk5M6qKgs9PQE//8As7Mi9PQEeHhQ7OwGenp6+/sBfHx8//8ADdco6wAAACN0Uk5TAP8AAAAAAAAAAAAAAAAAAAD5APv4AAAAAPPlAN8AyAD9AADFm+bPAAACeUlEQVR4nO3a2VbCMBAG4A4SqaIoiiuKy/s/pCxNM5kkhxbyD57QXHC60PnSSdK0lKrKVogtUvprvUJ6gYiie4h/azQaHaNRcoVtPlzzT0BEjRDe9rV20Sev8mz8oM1auMM7ppfGWqTVt5uFRmwxntcuGKt1q7efFFaDJYSO0Zot4xHx2LwashYdNNGdXb7spjFPITtdqmQtqOqiubz7ZxCer2wxWYv1h9mrtUdVLknBbn8lWYuIZozxIrCMyPzz5ByqXdoQE68tgkBVp2sWz09Ma3fXtnMZ42UvPEbIFK1FWvM7FNP2dy0h841JjdpjNitXOSYPp7EaG7o2XufrMjJ7azbelG7MZv3W8H51PCa0JuSMNkNgvXZH981eNigyak1rbWPT3rHft8zpwWl2ZFgku/ZINdPaq5qx27Ji1YKePC1b90toz3aR93aY9iK0XL09rr06jcQCQHsLNFxZOKLGa3N+dYRr74mJEVPETD9oWTSVhkvQiGIGLVfxADg3aBANPr6lhuXOR0M3XKBBubI1zYY7tYbkzknDNlxEm6hqdfybEG2JTGWgfQA1E/ZBbQ3G6WqR2GBNBEc+7Yca8mk/8kMTeMAFF+ZPRY5oidOCptO9N8Hfwmo+e5ScykEDaWU9VwX4oA1aBy7vi7f/pQEfPYKyoqmqptlNpmUPgZK1kof3l6L2rdpw0N8xgqLwOvpk2k/Zw3vQcmm6M9xMVdO8DyJaqWrl3pkA/2cVx9Q09odDPUzFI1LkmKHyVyHFzl/2uFbEdtrvrsAxwzW4Z1916HBCw2KuTyq0Gtc0MP0n/GKnbTEJqGhkl+BaM52q3Zxo3ilwDxP9DyOLDTrscO7uAAAAAElFTkSuQmCC"/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+	</style>
+	<g id="Background">
+		<use id="Path 6" href="#img1" x="11" y="4" />
+	</g>
+</svg>
