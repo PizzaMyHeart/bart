@@ -46,12 +46,13 @@ const config = {
         title: 'Bart',
         logo: {
           alt: 'My Site Logo',
-          src: 'img/logo.png'
+          src: 'img/logo-light-mode.svg',
+          srcDark: 'img/logo-dark-mode.svg'
         },
         items: [
           {
             type: 'doc',
-            docId: 'intro',
+            docId: 'howto',
             position: 'left',
             label: 'Guidelines',
           },
@@ -70,8 +71,8 @@ const config = {
             title: 'Guidelines',
             items: [
               {
-                label: 'Introduction',
-                to: '/docs/intro',
+                label: 'How to Use',
+                to: '/docs/howto',
               },
             ],
           },
@@ -106,6 +107,34 @@ const config = {
       require.resolve('@cmfcmf/docusaurus-search-local'),
       {
         indexDocs: true
+      }
+    ],
+    [
+      '@docusaurus/plugin-pwa',
+      {
+        debug: true,
+        offlineModeActivationStrategies: [
+          'appInstalled',
+          'standalone',
+          'queryString'
+        ],
+        pwaHead: [
+          {
+            tagName: 'link',
+            rel: 'icon',
+            href: '/img/logo.png'
+          },
+          {
+            tagName: 'link',
+            rel: 'manifest',
+            href: '/manifest.json'
+          },
+          {
+            tagName: 'meta',
+            name: 'theme-color',
+            content: 'rgb(37, 194, 160)'
+          }
+        ]
       }
     ]
   ]
