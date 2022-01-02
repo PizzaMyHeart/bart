@@ -8,7 +8,7 @@ const FeatureList = [
     Svg: require('../../static/img/undraw_search_re_x5gq.svg').default,
     description: (
       <>
-        Guidelines that are easy to find and read, complete with nifty search bar.
+        Guidelines that are easier to find and read, complete with a nifty search bar.
       </>
     ),
   },
@@ -17,7 +17,7 @@ const FeatureList = [
     Svg: require('../../static/img/undraw_typewriter_re_u9i2.svg').default,
     description: (
       <>
-        Netlify CMS lets you write documents in Markdown or rich text.
+        Netlify CMS lets you edit guidelines quickly using Markdown or rich text. Comes with version control.
       </>
     ),
   },
@@ -26,7 +26,7 @@ const FeatureList = [
     Svg: require('../../static/img/undraw_in_sync_re_jlqd.svg').default,
     description: (
       <>
-        Want to browse Bart as a website on your PC? Or use it as an offline app you can install on your device? You get to decide.
+        Want to use Bart as a website in your browser? Or use it as an offline app you can install on your device? You get to decide.
       </>
     ),
   },
