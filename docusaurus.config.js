@@ -23,14 +23,7 @@ const config = {
       ({
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
-          // Please change this to your repo.
-          editUrl: 'https://github.com/PizzaMyHeart/bart',
-        },
-        blog: {
-          showReadingTime: true,
-          // Please change this to your repo.
-          editUrl:
-            'https://github.com/PizzaMyHeart/bart',
+          showLastUpdateTime: true,
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -43,6 +36,7 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
+        hideOnScroll: true,
         title: 'Bart',
         logo: {
           alt: 'My Site Logo',
@@ -74,6 +68,10 @@ const config = {
                 label: 'How to Use',
                 to: '/docs/howto',
               },
+              {
+                label: 'Installation',
+                to: '/docs/howto#installation'
+              }
             ],
           },
           {
@@ -99,6 +97,12 @@ const config = {
       tableOfContents: {
         minHeadingLevel: 2,
         maxHeadingLevel: 6
+      },
+      colorMode: {
+        defaultMode: 'dark'
+      },
+      announcementBar: {
+        content: '🚧 This website is under active development. Guidelines are not ready for use. 🚧'
       }
     }),
 
