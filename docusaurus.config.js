@@ -58,7 +58,7 @@ const config = {
           },
           {to: url + '/admin', label: 'Authors', position:'left'},
           {
-            href: 'https://github.com/facebook/docusaurus',
+            href: 'https://github.com/PizzaMyHeart/bart',
             label: 'GitHub',
             position: 'right',
           },
