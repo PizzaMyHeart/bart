@@ -18,7 +18,7 @@
         "sizes": "512x512"
       }
     ],
-    "start_url": "./docs/howto",
+    "start_url": "/docs/howto",
     "background_color": "#ffffff",
     "display": "standalone",
     "scope": "./",
