@@ -3,7 +3,7 @@ backend:
   repo: PizzaMyHeart/bart # Branch to update (optional; defaults to master)
   branch: main
 
-local_backend: true
+local_backend: false
 
 site_url: 'https://bart.tachy.org'
 
