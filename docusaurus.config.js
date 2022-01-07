@@ -50,7 +50,7 @@ const config = {
             position: 'left',
             label: 'Guidelines',
           },
-          {to: url + '/admin', label: 'Authors', position:'left'},
+          {to: url + '/admin/', label: 'Authors', position:'left'},
           {
             href: 'https://github.com/PizzaMyHeart/bart',
             label: 'GitHub',
